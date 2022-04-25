@@ -72,6 +72,12 @@ a:hover {
     height: 100px;
 }
 
+.col-sm-6
+{
+    width: 50%;
+
+   
+}
 
 .col-sm-13
 {
