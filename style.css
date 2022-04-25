@@ -905,7 +905,8 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation2.bmp");
+    background-color: #364577;
+    background-image: url("img/image-de-presentation3.bmp");
     height: 450px;
 }
 
@@ -1134,10 +1135,23 @@ padding-left: 0px;
         padding-left: 0;
         padding-right: 0;
     }
+    
+.col-sm-6
+{
+    width: 100%;
+}    
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .col-sm-6
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
 }
