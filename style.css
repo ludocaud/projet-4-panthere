@@ -39,6 +39,7 @@ a:hover {
 .row-no-gutters-social
 {
     padding-left: 370px;
+    
 }
 
 .col-sm-12
@@ -74,11 +75,26 @@ a:hover {
 
 .col-sm-6
 {
-    width: 50%;
-
-   
+    width: 50%;   
 }
 
+.text-center-white
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+..text-center-white p
+{
+    color: #FFFFFF;
+}
+
+.col-sm-12
+{
+    color: #FFFFFF;
+}
 .col-sm-13
 {
     height: 50px;
@@ -841,10 +857,6 @@ h4 {
     color: #FFFFFF!important;
 }
 
-.text-center.white
-{
-    font-size: 16px;
-}
 
 .text-center p
 {
@@ -898,7 +910,10 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-
+.bgc-atomic-tangerine {
+    background-color: #F3976C;
+    height: 120px;
+}
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere3.jpg");
