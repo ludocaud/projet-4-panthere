@@ -62,6 +62,12 @@ a:hover {
     text-align: center;
 }
 
+.col-sm-3
+{
+    width: 10%;
+}
+
+
 .contact
 {
     display: flex;
@@ -148,6 +154,16 @@ a:hover {
     font-size: 22px;
 }
 
+
+.text-center-white
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 div.text-center-contact
 {
     font-size: 40px;
@@ -157,9 +173,15 @@ div.text-center-contact
     text-align: center;
 }
 
+.text-center
+{
+    height: 31px;
+}
+
 .col-sm-3
 {
     color: #FFFFFF;
+    height: 31px;
 }
 
 .texte-maxime-guibard
@@ -182,7 +204,7 @@ font-size: 17px;
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -201,6 +223,14 @@ font-size: 17px;
     border-color: rgba(255, 255, 255, .2);
 }
 
+.row.row-no-gutters.social
+{
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -215,7 +245,7 @@ font-size: 17px;
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -232,7 +262,7 @@ font-size: 17px;
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color:#e26429;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -457,10 +487,6 @@ line-height: 44px;
 {
     color: white;
 }
-
-
-
-
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -749,12 +775,12 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
+
 h5,
 h6,
-p,
+
 label,
-.btn,
+
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -837,11 +863,7 @@ p {
     border-radius: 10px;
 }
 
-a.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
-    color: #FFFFFF;
-}
+
 
 h2 {
     font-size: 20px;
@@ -915,7 +937,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #eb733c;
+    background-color: #fc8a56;
 }
 
 .tc-white {
@@ -924,7 +946,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #eb733c;
+    background: #fc8a56;
     color: #FFFFFF!important;
 }
 
