@@ -74,6 +74,11 @@ a.social{
     color: #000000;
     font-size: 20px;
 }
+
+.text-center p{
+    font-weight: bold;
+}
+
 .col-sm-12.prestation
 {
     font-size: 20px;
@@ -191,7 +196,7 @@ a.social{
 
 .d-bloc-1
 {
-    color: white;
+    
     background-color: #fc8a56;
 }
 
@@ -375,6 +380,7 @@ a.social{
 #bloc-1-hero h1 {
     font-size: 50px;
     font-weight: bolder;
+    color: #FFFFFF;
 }
 
 .navbar {
@@ -748,7 +754,7 @@ label
 {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 
 .container {
@@ -788,8 +794,7 @@ p {
 }
 
 .cta-hero {
-    margin-top: 22px;
-    color: #FFFFFF!important;
+
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -810,7 +815,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    
 }
 
 .med-width-whitespace {
@@ -819,12 +824,12 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
-    color: white;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .icons {
@@ -833,7 +838,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    
     font-size: 30px;
 }
 
@@ -869,7 +874,7 @@ h4 {
 
 
 .tc-white {
-    color: #FFFFFF!important;
+    
     font-size: 30px;
     padding-top: 50px;
     padding-bottom: 80px;
@@ -928,6 +933,7 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    background-color: #333333;
 }
 
 .bgc-atomic-tangerine {
@@ -937,10 +943,11 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere3.jpg");
+    background-color: #333333;
 }
 
 .bg-presentation {
-    
+    background-color: #333333;
     background-image: url("img/image-de-presentation3.bmp");
     height: 100%;
     width: 100%;
