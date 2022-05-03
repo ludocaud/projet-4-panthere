@@ -20,6 +20,9 @@ a:hover {
     cursor: pointer;
 }
 
+a.social{
+    color:#FFFFFF
+}
 
 
 #page-loading-blocs-notifaction {
@@ -186,7 +189,7 @@ a:hover {
     background-attachment: fixed;
 }
 
-.d-bloc-1 
+.d-bloc-1
 {
     color: white;
     background-color: #fc8a56;
@@ -453,7 +456,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-
+color: #FFFFFF;
 }
 
 .mg-md {
@@ -740,8 +743,8 @@ h2,
 h3,
 h5,
 h6,
-label,
-a {
+label
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
