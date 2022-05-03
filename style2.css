@@ -173,10 +173,6 @@ div.text-center-contact
     text-align: center;
 }
 
-.text-center
-{
-    height: 31px;
-}
 
 .col-sm-3
 {
@@ -784,7 +780,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    
 }
 .form-group
 {
@@ -812,8 +808,9 @@ input#input_504
 
 .col-sm-6
 {
-    width: 70%;
+    width: 100%;
     margin-bottom: 30px;
+    color: black;
 }
 
 .container {
@@ -1144,7 +1141,7 @@ h4 {
     }
     .bloc-xxl,
     .bloc-xl,
-    .bloc-lg {
+    {
         padding: 40px ;
     }
     .bloc-sm,
