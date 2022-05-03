@@ -949,13 +949,13 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere3.jpg");
+    background-image: url("img/agence-la-panthere-min.jpg");
     background-color: #333333;
 }
 
 .bg-presentation {
     background-color: #333333;
-    background-image: url("img/image-de-presentation3.bmp");
+    background-image: url("img/image-de-presentation-min.jpg");
     height: 100%;
     width: 100%;
     padding-left: 0px;
