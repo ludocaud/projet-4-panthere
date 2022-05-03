@@ -40,9 +40,18 @@ a:hover {
 
 .col-sm-12
 {
-    margin-top: -20px;
+    margin-top: 0px;
+    
 
 }
+
+.col-sm-12 p
+{
+    margin-top: 0px;
+    margin-left: 280px;
+
+}
+
 
 .col-sm-15
 {
