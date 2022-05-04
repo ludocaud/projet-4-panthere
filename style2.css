@@ -199,9 +199,7 @@ font-size: 17px;
     background-attachment: fixed;
 }
 
-.d-bloc {
-    color: white;
-}
+
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -852,7 +850,6 @@ p {
 .cta-hero {
     width: 100%;
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -885,9 +882,7 @@ h3 {
     
 }
 
-h1 {
-    color: #333333!important;
-}
+
 
 h4 {
     color: #333333!important;
@@ -937,14 +932,22 @@ h4 {
     background-color: #fc8a56;
 }
 
+.text-center.mg-lg.tc-white.tight-width-whitespace
+{
+    font-size: 25px;
+}
+
+
 .tc-white {
-    color: #FFFFFF!important;
+    color:black;
+    margin-bottom: 30px;
+
   
 }
 
 .btn-atomic-tangerine {
     background: #fc8a56;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1139,11 +1142,13 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
     .bloc-xxl,
-    .bloc-xl,
+    .bloc-xl
     {
-        padding: 40px ;
+        padding: 40px;
     }
+
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
@@ -1190,11 +1195,6 @@ h4 {
         width: 180px;
         height: 320px;
     }
-
-
-
-
-
 
 }
 
