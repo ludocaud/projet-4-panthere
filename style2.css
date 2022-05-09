@@ -415,7 +415,8 @@ font-size: 17px;
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    width: 220px;
+    height: 45px;
 }
 
 .nav-center .navbar-brand img {
